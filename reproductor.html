@@ -11,14 +11,14 @@
 
 <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand text-white" href="#">CineBo</a>
+    <a class="navbar-brand text-white" href="Index.html"><h1>CineBo</h1></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-            <select class="form-select mx-1" aria-label="Default select example">
+            <select class="form-select mx-0" aria-label="Default select example">
                 <option selected>GENEROS</option>
                 <option value="1">Drama</option>
                 <option value="2">Accion</option>
@@ -34,7 +34,7 @@
             </select>
         </li>
         <li class="nav-item dropdown">
-            <select class="form-select mx-1" aria-label="Default select example">
+            <select class="form-select mx-2" aria-label="Default select example">
                 <option selected>MÁS</option>
                 <option value="1">Directores</option>
                 <option value="2">Actores</option>
@@ -44,39 +44,42 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+        <button class="btn btn-outline-dark" type="submit">🔍</button>
+        <button class="btn btn-outline-dark" type="submit">👤</button>
       </form>
     </div>
   </div>
 </nav>
 
 <div class="row">
-    <div class="col-9">
-        <h1>PELICULAS</h1>
-        <button type="button" class="btn btn-light">Descargar</button>
-        <div>
-            <video src="videos/prueba.mp4" class="" style="height: 500px; width: 700px;"></video>
+    <div class="col-9 mt-5">
+        <h1 class="ms-4">PELICULAS</h1>
+        <button type="button" class="btn btn-light mb-3 ms-4">Descargar</button>
+        <div class="bg-secondary text-dark d-flex justify-content-center align-items-center mb-4 ms-4" style="height: 385px; width: 685px;">
+          <video width="100%" height="100%" controls >
+          <source src="videos/prueba.mp4" type="video/mp4">
+          </video>
         </div>
     </div>
-    <div class="col-3 text-white">
-        <h1>lo mas visto</h1>
-        <div class="row row-cols-2">
-          <div class="col">
+    <div class="col-3 text-white mt-5">
+        <h1 class="mt-2" style="font-size: medium;">LO MAS VISTO</h1>
+        <div class="row row-cols-2 me-5 mt-4">
+          <div class="col mb-3">
             <img src="imagenes/98s.png" class="img-fluid">
           </div>
-          <div class="col">
+          <div class="col mb-3">
             <img src="imagenes/Soren.jpg" class="img-fluid">
           </div>
-          <div class="col">
+          <div class="col mb-3" >
             <img src="imagenes/elladrondeperr.jpg" class="img-fluid">
           </div>
-          <div class="col">
+          <div class="col mb-3">
             <img src="imagenes/QMALL.jpg" class="img-fluid">
           </div>
-          <div class="col">
+          <div class="col mb-3">
             <img src="imagenes/sueño.jpg" class="img-fluid">
           </div>
-          <div class="col">
+          <div class="col mb-3">
             <img src="imagenes/Chuloman.jpeg" class="img-fluid">
           </div>
         </div>

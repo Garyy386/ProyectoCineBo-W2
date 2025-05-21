@@ -11,18 +11,23 @@
 
 <nav class="navbar navbar-expand-lg bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand text-white" href="#">CineBo</a>
+    <a class="navbar-brand text-white" href="Index.html">
+        <h1>CineBo</h1></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarScroll">
       <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-            <select class="form-select mx-1" aria-label="Default select example">
+            <select class="form-select mx-0" aria-label="Default select example">
                 <option selected>GENEROS</option>
                 <option value="1">Drama</option>
                 <option value="2">Accion</option>
                 <option value="3">Romance</option>
+                <option value="4">Animacion</option>
+                <option value="5">Aventuras</option>
+                <option value="6">Comedia</option>
+                <option value="7">Documental</option>
             </select>
         </li>
         <li class="nav-item">
@@ -34,7 +39,7 @@
             </select>
         </li>
         <li class="nav-item dropdown">
-            <select class="form-select mx-1" aria-label="Default select example">
+            <select class="form-select mx-2" aria-label="Default select example">
                 <option selected>MÁS</option>
                 <option value="1">Directores</option>
                 <option value="2">Actores</option>
@@ -44,7 +49,9 @@
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+        <button class="btn btn-outline-dark" type="submit">🔍</button>
+        <button class="btn btn-outline-dark" type="submit">👤</button>
+      </form>
       </form>
     </div>
   </div>
@@ -82,13 +89,8 @@
 
 <div class="bg-success me-0 ms-0 py-2" style="text-align: center;"> BOLIVIANAS EN HD PARA VER ONLINE O DESCARGAR POR MEGA DRIVE  Y MAS EN VER PELICULAS BOLIVIANAS ONLINE</div>
 
-<div id="carouselExampleIndicators" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner" style="height: 400px;">
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner " style="height: 400px;">
     <div class="carousel-item active">
       <img src="imagenes/elvisitjpg.jpg" class="d-block w-100" alt="...">
     </div>
@@ -99,18 +101,18 @@
       <img src="imagenes/98seconds.png" class="d-block w-100" alt="...">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
 
 <div class="d-flex justify-content-between py-2">
-    <h2>PELICULAS RECIENTES</h2>    <button type="button" class="btn btn-light">VER TODO</button>
+    <h2 class="ms-2">PELICULAS RECIENTES</h2>    <button type="button" class="btn btn-light">VER TODO</button>
 </div>
 
 <div class="row">
